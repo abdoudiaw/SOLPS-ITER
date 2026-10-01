@@ -281,6 +281,7 @@ endif
 	-[ -s b2mn.exe.dir/b2neo.nc ] && mv b2mn.exe.dir/b2neo.nc . || echo > /dev/null
 	-[ -s b2mn.exe.dir/b2movies.nc ] && mv b2mn.exe.dir/b2movies.nc . || echo > /dev/null
 	-[ -s b2mn.exe.dir/eirenemovies.nc ] && mv b2mn.exe.dir/eirenemovies.nc . || echo > /dev/null
+	-find b2mn.exe.dir -maxdepth 1 -type f -name 'eirene_training_v1_*.nc' -exec mv {} . \;
 	-[ -s b2mn.exe.dir/b2tallies.nc ] && mv b2mn.exe.dir/b2tallies.nc . || echo > /dev/null
 	-[ -s b2mn.exe.dir/balance.nc ] && mv b2mn.exe.dir/balance.nc . || echo > /dev/null
 	-[ -s b2mn.exe.dir/b2_to_astra.dat ] && mv b2mn.exe.dir/b2_to_astra.dat . || echo > /dev/null
@@ -382,6 +383,7 @@ endif
 	-[ -s b2mn.exe.dir/b2neo.nc ] && mv b2mn.exe.dir/b2neo.nc . || echo > /dev/null
 	-[ -s b2mn.exe.dir/b2movies.nc ] && mv b2mn.exe.dir/b2movies.nc . || echo > /dev/null
 	-[ -s b2mn.exe.dir/eirenemovies.nc ] && mv b2mn.exe.dir/eirenemovies.nc . || echo > /dev/null
+	-find b2mn.exe.dir -maxdepth 1 -type f -name 'eirene_training_v1_*.nc' -exec mv {} . \;
 	-[ -s b2mn.exe.dir/b2tallies.nc ] && mv b2mn.exe.dir/b2tallies.nc . || echo > /dev/null
 	-[ -s b2mn.exe.dir/balance.nc ] && mv b2mn.exe.dir/balance.nc . || echo > /dev/null
 	-[ -s b2mn.exe.dir/b2_to_astra.dat ] && mv b2mn.exe.dir/b2_to_astra.dat . || echo > /dev/null
